@@ -835,3 +835,207 @@ body {
   background-color: #f6b400;
   color: #111;
 }
+/* ===== MOBILE RESPONSIVENESS ===== */
+@media (max-width: 768px) {
+  /* GENERAL */
+  body {
+    font-size: 14px;
+  }
+
+  /* HERO SECTION */
+  .hero-section {
+    flex-direction: column;
+    padding: 40px 20px;
+    min-height: auto;
+    text-align: center;
+  }
+
+  .hero-content {
+    padding: 0;
+  }
+
+  .hero-title {
+    font-size: 28px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+  }
+
+  .order-btn, .view-menu {
+    width: 100%;
+    font-size: 16px;
+    padding: 10px 0;
+  }
+
+  .hero-image img {
+    width: 300px;
+    margin-top: 20px;
+  }
+
+  /* PEOPLE SECTION */
+  .people-section {
+    flex-direction: column;
+    padding: 60px 20px;
+  }
+
+  .people-content {
+    padding: 0;
+    text-align: center;
+  }
+
+  .people-content h2 {
+    font-size: 24px;
+  }
+
+  .people-content p {
+    font-size: 16px;
+  }
+
+  .people-image img {
+    width: 300px;
+    margin-top: 20px;
+  }
+
+  /* FEATURED MENU SECTION */
+  .menu-gallery {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .menu-card {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .menu-card img {
+    width: 100%;
+  }
+
+  /* ONLINE ORDER SECTION */
+  .order-section {
+    flex-direction: column;
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .order-content {
+    padding: 0;
+  }
+
+  .order-heading {
+    font-size: 28px;
+  }
+
+  .order-description {
+    font-size: 16px;
+    max-width: 100%;
+  }
+
+  .order-image img {
+    width: 300px;
+    margin-top: 20px;
+  }
+
+  /* BOOK TABLE SECTION */
+  .book-section {
+    flex-direction: column-reverse;
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .book-content {
+    padding: 0;
+  }
+
+  .book-heading {
+    font-size: 28px;
+  }
+
+  .book-description {
+    font-size: 16px;
+    max-width: 100%;
+  }
+
+  .book-image img {
+    width: 300px;
+    margin-top: 20px;
+  }
+
+  /* CHEF SECTION */
+  .chef-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .chef-image img {
+    width: 300px;
+  }
+
+  .chef-content {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .chef-heading {
+    font-size: 28px;
+  }
+
+  .chef-name {
+    font-size: 24px;
+  }
+
+  /* TESTIMONIAL SECTION */
+  .testimonial-card img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .testimonial-header .white-heading {
+    font-size: 28px;
+  }
+
+  /* LOCATIONS SECTION */
+  .locations-section {
+    flex-direction: column;
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .locations-content {
+    padding: 0;
+  }
+
+  .locations-heading {
+    font-size: 28px;
+  }
+
+  .locations-image img {
+    width: 300px;
+    margin-top: 20px;
+  }
+
+  /* COMMUNITY SECTION */
+  .community-gallery {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .community-card img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .community-heading {
+    font-size: 28px;
+  }
+
+  /* FOOTER SECTION */
+  .footer-subscribe input {
+    width: 100%;
+  }
+
+  .footer-socials {
+    right: 20px;
+    bottom: 50px;
+    gap: 15px;
+  }
+}
